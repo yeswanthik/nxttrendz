@@ -1,0 +1,54 @@
+/* Write your CSS code here */
+.login-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.login-img {
+  height: 40%;
+  width: 50%;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 10px;
+  margin-left: 20px;
+  height: 65vh;
+  width: 30vw;
+}
+.img-logo {
+  height: 30%;
+  width: 40%;
+  margin-left: 30%;
+}
+.input-values {
+  height: 40px;
+  width: 250px;
+  border-radius: 4px;
+  border-width: 0;
+  background-color: #d7dfe9;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+}
+.button {
+  width: 250px;
+  height: 40px;
+  background-color: #0b69ff;
+  color: white;
+  border-radius: 6px;
+  border-width: 0;
+  margin-top: 20px;
+}
+.error {
+  color: #ff0b37;
+}
+.input-values:hover {
+  border: #0b69ff 1px solid;
+}

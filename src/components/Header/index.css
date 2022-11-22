@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.img-size {
+  height: 30%;
+  width: 30%;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+.ul-container {
+  list-style-type: none;
+  display: inline-flex;
+  text-decoration: none;
+}
+.li-items {
+  margin-left: 10px;
+  height: 30px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  text-decoration: none;
+  color: #1e293b;
+}
+.button-logout {
+  background-color: #0b69ff;
+  color: white;
+  width: 80px;
+  height: 30px;
+  border-width: 0;
+  border-radius: 6px;
+  margin-top: -8px;
+}
+.links {
+  text-decoration: none;
+}
+.li-items:hover {
+  color: #0b69ff;
+}

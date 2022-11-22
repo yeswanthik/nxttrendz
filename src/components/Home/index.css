@@ -1,0 +1,25 @@
+/* Write your CSS code here */
+.img-details {
+  height: 30%;
+  width: 30%;
+  border-radius: 6px;
+}
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20px;
+}
+.home-details {
+  margin-right: 20px;
+}
+.p-style {
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  color: #64748b;
+}
+.h-style {
+  font-size: 32px;
+  color: #475569;
+}
